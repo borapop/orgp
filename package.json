@@ -1,0 +1,16 @@
+{
+  "name": "ogrp",
+  "version": "1.0.0",
+  "description": "A class to use SPB OGRP methods",
+  "main": "ogrp.js",
+  "dependencies": {
+    "csvtojson": "^1.0.3",
+    "request": "^2.78.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "borapop",
+  "license": "ISC"
+}
