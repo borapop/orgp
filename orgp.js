@@ -2,7 +2,7 @@ const Converter = require("csvtojson").Converter;
 const request = require('request');
 const path = require('path');
 
-let Ogrp = function(gtfsFeedPath, onLoad) {
+let Orgp = function(gtfsFeedPath, onLoad) {
 
   function loadDataFromCsv(gtfsPath) {
     return new Promise((resolve, reject) => {
@@ -146,4 +146,4 @@ let Ogrp = function(gtfsFeedPath, onLoad) {
   };
 };
 
-module.exports = Ogrp;
+module.exports = Orgp;
