@@ -1,6 +1,6 @@
 {
   "name": "ogrp",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A class to use SPB OGRP methods",
   "main": "ogrp.js",
   "dependencies": {
@@ -12,5 +12,18 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "borapop",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/borapop/ogrp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/borapop/ogrp/issues"
+  },
+  "homepage": "https://github.com/borapop/ogrp#readme",
+  "keywords": [
+    "spb",
+    "transport",
+    "ogrp"
+  ]
 }
