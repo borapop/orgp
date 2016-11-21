@@ -1,10 +1,12 @@
 # orgp
-API to obtain data from [transport.orgp.spb.ru](transport.orgp.spb.ru).
+API to obtain data from [transport.orgp.spb.ru](http://transport.orgp.spb.ru).
 
 ## Installation
 `npm i orgp`
 
 Download and unzip feed.zip from [http://transport.orgp.spb.ru/Portal/transport/internalapi/gtfs/feed.zip](http://transport.orgp.spb.ru/Portal/transport/internalapi/gtfs/feed.zip)
+
+Information about General Transit Feed Specification at [https://developers.google.com/transit/gtfs/](https://developers.google.com/transit/gtfs/)
 
 ## Usage
 `let Orgp = require('orgp');`  
@@ -46,8 +48,9 @@ Download and unzip feed.zip from [http://transport.orgp.spb.ru/Portal/transport/
 
 * `orgp.getNearestStops(radius, lattitude, longitude),`
 
- Returns array of all stops with distance to passed location (`lattitude`, `longitude`) less than `radius`
-
+ Returns array of all stops with distance to passed location (`lattitude`, `longitude`) less than `radius`.  
+ Returns `[]` if there no stops in this radius.
+ 
 * `orgp.getForecastByStopId(id, (err, result) => {`  
 ` if(err) return;`  
 ` console.log(result);`  
@@ -59,4 +62,4 @@ Download and unzip feed.zip from [http://transport.orgp.spb.ru/Portal/transport/
 
 
 
-Read about General Transit Feed Specification at [https://developers.google.com/transit/gtfs/](https://developers.google.com/transit/gtfs/)
+
