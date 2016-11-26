@@ -1,4 +1,4 @@
-let Orgp = require('./orgp');
+let Orgp = require('./index');
 let orgp;
 let assert = require('assert');
 describe('Orgp class', function() {
